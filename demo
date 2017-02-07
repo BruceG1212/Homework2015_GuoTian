@@ -1,0 +1,10 @@
+from PIL import Image
+from pylab import *
+from PIL import Image
+import os
+
+im = array(Image.open('./waliwali.jpg').convert('L'))
+# img = Image.open("./source/test.jpg")
+imshow(im)
+gray()
+show()
